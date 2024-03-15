@@ -24,6 +24,7 @@ h1 {
   margin: 0;
 }
 
+
 .subtitulo {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
@@ -53,7 +54,7 @@ nav>a:hover {
 main {
   margin: auto;
   background-color: white;
-  width: 1000px;
+  width: 90%;
   padding: 10px;
   text-align: justify;
   border-radius: 0 0 10px 10px;
@@ -93,8 +94,14 @@ ul {
   column-gap: 20px;
 }
 
+#pequeno {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
 img {
-  width: auto;
+  width: 100%;
 }
 
 
