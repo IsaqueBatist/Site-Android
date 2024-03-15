@@ -135,7 +135,17 @@ img {
   background-color: #043D1D;
   padding: 10px;
   border-radius: 10px;
-  text-align: center;
+  margin: 0 -10px 0 -10px;
+  padding-bottom: 57%;
+  position: relative;
+}
+
+.video>iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
 }
 
 p>a {
